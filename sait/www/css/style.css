@@ -164,3 +164,11 @@ ul.nav a {
   display:inline;
   padding-right: 600px;
 }
+
+.informa {
+  float: right;
+  width: 50%;
+  margin: 0 auto 30px;
+  padding: 0 20px;
+  
+}
