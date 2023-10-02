@@ -37,10 +37,14 @@
   font-weight: normal;
   font-size: 46px;
   line-height: 40px;
+  color:#ffffff;
+}
+.link-logo{
+  text-decoration: none;
 }
 
 .light-theme h2 {
-  border-bottom: 2px solid #cccccc;
+  border-bottom: 2px solid #000000;
   padding-bottom: 12px;
 }
 
@@ -123,20 +127,18 @@
 .light-theme .advantages-item {
   margin-bottom: 15px;
   padding-left: 20px;
-  border-left: 20px solid #e2e2e2;
+  border-left: 20px solid #7e10b3;
   color: #000000;
 }
 
 .light-theme .standard {
-  margin-bottom: 15px;
-  padding-left: 20px;
-  border-color: #847462;
+  border-color: #7e10b3;
   color: #000000;
 }
 
 
 .light-theme .vip {
-  border-color: #ffb864;
+  border-color: #7e10b3;
   color: #000000;
 }
 
