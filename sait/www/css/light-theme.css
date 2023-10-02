@@ -1,0 +1,55 @@
+/* Светлая тема */
+.light-theme {
+    color: #000000;
+    background-color: #ffffff;
+   }
+   .light-theme .theme-button {
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+  }
+  
+  .light-theme .theme-button:focus,
+  .light-theme .theme-button:hover {
+    color: #000000;
+    background-color: #a6a6a6;
+    border: 1px solid #000000;
+  }
+  .light-theme h1 {
+    color:#ffffff;
+  }
+  
+  .light-theme h2 {
+    border-bottom: 2px solid #000000;
+  }
+  
+  .light-theme .site-header {
+    background: #000000 no-repeat center url("icons8-солнце.svg");
+    color: #ffffff;
+  }
+  .light-theme .advantages-item {
+    border-left: 20px solid #7e10b3;
+    color: #000000;
+  }
+  
+  .light-theme .standard {
+    border-color: #7e10b3;
+    color: #000000;
+  }
+  .light-theme .vip {
+    border-color: #7e10b3;
+    color: #000000;
+  }
+  .light-theme .site-footer {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  .light-theme ul.nav a {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+  .light-theme ul.nav a:hover{
+    background-color: #ffffff;
+    color: #000000;
+  }
