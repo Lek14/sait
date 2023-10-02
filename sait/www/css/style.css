@@ -91,7 +91,7 @@ h2 {
 
 .feature-accessories {
   padding-top: 65px;
-  background-image: url("images/icons.png");
+  background-image: url("images/money");
 }
 
 .advantages {
@@ -143,164 +143,9 @@ ul.nav a {
   padding: 13px;
   margin: 0px 5px;
   text-decoration: none;
-  color: #ffffff;
-  text-align: center;
-}
-.light-theme ul.nav a:hover{
-  background-color: #ffffff;
-  color: #000000;
-}
-/* Тёмная тема */
-.dark-theme {
-  color: #ffffff;
-  background-color: #000000;
-}
-
-.dark-theme .theme-button {
-  margin-right: 2%;
-  color: #000000;
-  background-color: #a6a6a6;
-  border: 1px solid #000000;
-  float: right;
-  font-family: "Courier New", sans-serif;
-}
-
-.dark-theme .theme-button::before {
-  background-image: url("icons8-солнце.svg");
-}
-
-.dark-theme .theme-button:focus,
-.dark-theme .theme-button:hover {
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #a6a6a6;
-}
-
-.dark-theme .theme-button:focus::before,
-.dark-theme .theme-button:hover::before {
-  background-image: url("icons8-солнце.svg");
-}
-
-.dark-theme h1 {
-  width: 90%;
-  margin: 0 auto 8px;
-  margin-left: 5%;
-  font-family: "Courier New", serif;
-  text-align: left;
-  font-weight: normal;
-  font-size: 46px;
-  line-height: 40px;
-  color:#000000;
-}
-
-.dark-theme h2 {
-  border-bottom: 2px solid #ffffff;
-  padding-bottom: 12px;
-}
-
-.dark-theme .container {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-.dark-theme .site-header {
-  min-width: 550px;
-  height: 160px;
-  margin-bottom: 70px;
-  padding-top: 30px;
-  background: #a6a6a6 no-repeat center url("img/gloevk-bg.jpg");
-  background-size: cover;
-  color: #000000;
-}
-
-
-.dark-theme .site-header p {
-  width: 50%;
-  margin: 0 auto 8px;
-  margin-left: 5%;
-  text-align: left;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.dark-theme .site-header img {
-  display: block;
-  margin: 0 auto;
-}
-
-.dark-theme .features {
-  width: 510px;
-  margin: 0 auto 30px;
-  padding: 0 20px;
-}
-
-.dark-theme .features p {
-  display: inline-block;
-  vertical-align: top;
-  width: 30%;
-  margin: 0 5px;
-  background-repeat: no-repeat;
-  background-position: center top;
   text-align: center;
 }
 
-.dark-theme .feature-furniture {
-  padding-top: 65px;
-  background-image: url("img/furniture.svg");
-}
-
-.dark-theme .feature-lighting {
-  padding-top: 65px;
-  background-image: url("img/lighting.svg");
-}
-
-.dark-theme .feature-accessories {
-  padding-top: 65px;
-  background-image: url("img/accessories.svg");
-}
-
-.dark-theme .advantages {
-  width: 510px;
-  margin: 0 auto 40px;
-  padding: 0 20px;
-}
-
-.dark-theme .advantages-list {
-  padding: 0;
-  list-style: none;
-}
-
-.dark-theme .advantages-item {
-  margin-bottom: 15px;
-  padding-left: 20px;
-  border-left: 20px solid #e2e2e2;
-  color: #ffffff;
-}
-
-.dark-theme .standard {
-  border-color: #847462;
-  color: #ffffff;
-}
-
-
-.dark-theme .vip {
-  border-color: #ffb864;
-  color: #ffffff;
-}
-
-
-.dark-theme .site-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: #a6a6a6;
-  color: #000000;
-}
-
-.dark-theme .site-footer .container {
-  text-align: center;
-}
 
  body {
   margin: 0;
@@ -309,4 +154,13 @@ ul.nav a {
   font-size: 14px;
   line-height: 20px;
   color: #444444;
+}
+.polynom {
+  display:inline;
+  margin-left: 11%;
+  
+}
+.logotype {
+  display:inline;
+  padding-right: 600px;
 }
