@@ -37,6 +37,10 @@
   font-weight: normal;
   font-size: 46px;
   line-height: 40px;
+  color:#ffffff;
+}
+.link-logo{
+  text-decoration: none;
 }
 
 .light-theme h2 {
@@ -76,9 +80,11 @@
 }
 
 .light-theme .features {
-  width: 90%;
+  float: right;
+  width: 50%;
   margin: 0 auto 30px;
   padding: 0 20px;
+  
 }
 
 .light-theme .features p {
@@ -107,7 +113,8 @@
 }
 
 .light-theme .advantages {
-  width: 90%;
+  float: right;
+  width: 50%;
   margin: 0 auto 40px;
   padding: 0 20px;
 }
@@ -125,7 +132,13 @@
 }
 
 .light-theme .standard {
+<<<<<<< HEAD
   border-color: #08ff00;
+=======
+  margin-bottom: 15px;
+  padding-left: 20px;
+  border-color: #847462;
+>>>>>>> a5ea72e4497da2cad349ee7d374e7cd03d181276
   color: #000000;
 }
 
