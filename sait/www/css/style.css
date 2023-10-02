@@ -37,6 +37,10 @@
   font-weight: normal;
   font-size: 46px;
   line-height: 40px;
+  color:#ffffff;
+}
+.link-logo{
+  text-decoration: none;
 }
 
 .light-theme h2 {
