@@ -99,7 +99,7 @@
 
 .light-theme .feature-furniture {
   padding-top: 65px;
-  background-image: url("img/furniture.svg");
+  background-image: url("img/accessories.svg");
 }
 
 .light-theme .feature-lighting {
@@ -109,7 +109,7 @@
 
 .light-theme .feature-accessories {
   padding-top: 65px;
-  background-image: url("img/accessories.svg");
+  background-image: url("images/icons.png");
 }
 
 .light-theme .advantages {
@@ -265,7 +265,8 @@
 }
 
 .dark-theme .features {
-  width: 510px;
+  float: right;
+  width: 50%;
   margin: 0 auto 30px;
   padding: 0 20px;
 }
@@ -292,11 +293,12 @@
 
 .dark-theme .feature-accessories {
   padding-top: 65px;
-  background-image: url("img/accessories.svg");
+  background-image: url("images/image.png");
 }
 
 .dark-theme .advantages {
-  width: 510px;
+  float: right;
+  width: 50%;
   margin: 0 auto 40px;
   padding: 0 20px;
 }
