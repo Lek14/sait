@@ -44,7 +44,7 @@
 }
 
 .light-theme h2 {
-  border-bottom: 2px solid #cccccc;
+  border-bottom: 2px solid #000000;
   padding-bottom: 12px;
 }
 
@@ -80,9 +80,11 @@
 }
 
 .light-theme .features {
-  width: 90%;
+  float: right;
+  width: 50%;
   margin: 0 auto 30px;
   padding: 0 20px;
+  
 }
 
 .light-theme .features p {
@@ -111,7 +113,8 @@
 }
 
 .light-theme .advantages {
-  width: 90%;
+  float: right;
+  width: 50%;
   margin: 0 auto 40px;
   padding: 0 20px;
 }
@@ -124,18 +127,18 @@
 .light-theme .advantages-item {
   margin-bottom: 15px;
   padding-left: 20px;
-  border-left: 20px solid #e2e2e2;
+  border-left: 20px solid #7e10b3;
   color: #000000;
 }
 
 .light-theme .standard {
-  border-color: #847462;
+  border-color: #7e10b3;
   color: #000000;
 }
 
 
 .light-theme .vip {
-  border-color: #ffb864;
+  border-color: #7e10b3;
   color: #000000;
 }
 
