@@ -9,6 +9,7 @@
     background-color: #000000;
     border: 1px solid #ffffff;
     float: right;
+    font-family: "Courier New", sans-serif;
   }
 
   .light-theme .theme-button::before {
@@ -189,6 +190,7 @@
     background-color: #a6a6a6;
     border: 1px solid #000000;
     float: right;
+    font-family: "Courier New", sans-serif;
   }
 
   .dark-theme .theme-button::before {
@@ -211,7 +213,7 @@
     width: 100%;
     margin: 0 auto 8px;
     margin-left: 5%;
-    font-family: "Georgia", serif;
+    font-family: "Courier New", serif;
     text-align: left;
     font-weight: normal;
     font-size: 46px;
@@ -359,7 +361,7 @@
    body {
     margin: 0;
     padding: 0;
-    font-family: "Arial", sans-serif;
+    font-family: "Courier New", sans-serif;
     font-size: 14px;
     line-height: 20px;
     color: #444444;
