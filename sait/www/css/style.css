@@ -1,34 +1,21 @@
-/* Светлая тема */
-.light-theme {
-  color: #000000;
-  background-color: #ffffff;
- }
- .light-theme .theme-button {
+
+.theme-button {
   margin-right: 2%;
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #ffffff;
   float: right;
   font-family: "Courier New", sans-serif;
 }
 
-.light-theme .theme-button::before {
+.theme-button::before {
   background-image: url("img/moon-normal.svg");
 }
 
-.light-theme .theme-button:focus,
-.light-theme .theme-button:hover {
-  color: #000000;
-  background-color: #a6a6a6;
-  border: 1px solid #000000;
-}
 
-.light-theme .theme-button:focus::before,
-.light-theme .theme-button:hover::before {
+.theme-button:focus::before,
+.theme-button:hover::before {
   background-image: url("img/moon-hover.svg");
 }
 
-.light-theme h1 {
+h1 {
   width: 90%;
   margin: 0 auto 8px;
   margin-left: 5%;
@@ -37,35 +24,30 @@
   font-weight: normal;
   font-size: 46px;
   line-height: 40px;
-  color:#ffffff;
 }
 .link-logo{
   text-decoration: none;
 }
 
-.light-theme h2 {
-  border-bottom: 2px solid #000000;
+h2 {
   padding-bottom: 12px;
 }
 
-.light-theme .container {
+.container {
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
-.light-theme .site-header {
+.site-header {
   min-width: 550px;
   height: 160px;
   margin-bottom: 70px;
   padding-top: 30px;
-  background: #000000 no-repeat center url("icons8-солнце.svg");
   background-size: cover;
-  color: #ffffff;
 }
 
-
-.light-theme .site-header p {
+.site-header p {
   width: 50%;
   margin: 0 auto 8px;
   margin-left: 5%;
@@ -74,12 +56,12 @@
   line-height: 24px;
 }
 
-.light-theme .site-header img {
+.site-header img {
   display: block;
   margin: 0 auto;
 }
 
-.light-theme .features {
+.features {
   float: right;
   width: 50%;
   margin: 0 auto 30px;
@@ -87,7 +69,7 @@
   
 }
 
-.light-theme .features p {
+.features p {
   display: inline-block;
   vertical-align: top;
   width: 30%;
@@ -97,86 +79,69 @@
   text-align: center;
 }
 
-.light-theme .feature-furniture {
+.feature-furniture {
   padding-top: 65px;
   background-image: url("img/accessories.svg");
 }
 
-.light-theme .feature-lighting {
+.feature-lighting {
   padding-top: 65px;
   background-image: url("img/lighting.svg");
 }
 
-.light-theme .feature-accessories {
+.feature-accessories {
   padding-top: 65px;
   background-image: url("images/icons.png");
 }
 
-.light-theme .advantages {
+.advantages {
   float: right;
   width: 50%;
   margin: 0 auto 40px;
   padding: 0 20px;
 }
 
-.light-theme .advantages-list {
+.advantages-list {
   padding: 0;
   list-style: none;
 }
 
-.light-theme .advantages-item {
+.advantages-item {
   margin-bottom: 15px;
   padding-left: 20px;
-  border-left: 20px solid #7e10b3;
-  color: #000000;
-}
-
-.light-theme .standard {
-  border-color: #7e10b3;
-  color: #000000;
 }
 
 
-.light-theme .vip {
-  border-color: #7e10b3;
-  color: #000000;
-}
-
-
-.light-theme .site-footer {
-  position: fixed;
+.site-footer {
+  position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #000000;
-  color: #ffffff;
 }
 
-.light-theme .site-footer .container {
+.site-footer .container {
   text-align: center;
 }
 
-.light-theme .site-footer p {
+.site-footer p {
   display: inline-block;
   vertical-align: middle;
   padding: 0 20px;
 }
 
-.light-theme ul.nav{
+ul.nav{
 
   margin-left: 37px;
   padding-top: 10px;
   list-style: none;
 }
-.light-theme .nav li {
+.nav li {
   float: left;
 }
-.light-theme ul.nav a {
+ul.nav a {
   display: block;
   width: 7em;
   padding: 13px;
   margin: 0px 5px;
-  background-color: #000000;
-  border: 1px solid #ffffff;
   text-decoration: none;
   color: #ffffff;
   text-align: center;
@@ -265,8 +230,7 @@
 }
 
 .dark-theme .features {
-  float: right;
-  width: 50%;
+  width: 510px;
   margin: 0 auto 30px;
   padding: 0 20px;
 }
@@ -293,12 +257,11 @@
 
 .dark-theme .feature-accessories {
   padding-top: 65px;
-  background-image: url("images/image.png");
+  background-image: url("img/accessories.svg");
 }
 
 .dark-theme .advantages {
-  float: right;
-  width: 50%;
+  width: 510px;
   margin: 0 auto 40px;
   padding: 0 20px;
 }
@@ -339,35 +302,6 @@
   text-align: center;
 }
 
-.dark-theme .site-footer p {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 0 20px;
-}
-.dark-theme ul.nav{
-  margin-left: 37px;
-  padding-top: 10px;
-  list-style: none;
-}
-.dark-theme .nav li {
-  float: left;
-}
-.dark-theme ul.nav a {
-  display: block;
-  width: 7em;
-  padding: 13px;
-  margin: 0px 5px;
-  background-color: #a6a6a6;
-  border: 1px solid #000000;
-  text-decoration: none;
-  color: #000000;
-  text-align: center;
-}
-.dark-theme ul.nav a:hover{
-  background-color: #000000;
-  color: #ffffff;
-  border: 1px solid #000000
-}
  body {
   margin: 0;
   padding: 0;
