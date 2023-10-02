@@ -1,7 +1,7 @@
 /* Светлая тема */
 .light-theme {
   color: #000000;
-  background-color: #ffffff;
+  background-color: #e3b7b7;
  }
  .light-theme .theme-button {
   margin-right: 2%;
@@ -40,7 +40,7 @@
 }
 
 .light-theme h2 {
-  border-bottom: 2px solid #cccccc;
+  border-bottom: 2px solid #000000;
   padding-bottom: 12px;
 }
 
@@ -57,7 +57,7 @@
   padding-top: 30px;
   background: #000000 no-repeat center url("icons8-солнце.svg");
   background-size: cover;
-  color: #ffffff;
+  color: #ed0808;
 }
 
 
@@ -120,18 +120,18 @@
 .light-theme .advantages-item {
   margin-bottom: 15px;
   padding-left: 20px;
-  border-left: 20px solid #e2e2e2;
+  border-left: 20px solid #ff8800;
   color: #000000;
 }
 
 .light-theme .standard {
-  border-color: #847462;
+  border-color: #08ff00;
   color: #000000;
 }
 
 
 .light-theme .vip {
-  border-color: #ffb864;
+  border-color: #7e10b3;
   color: #000000;
 }
 
@@ -141,7 +141,7 @@
   bottom: 0;
   width: 100%;
   background-color: #000000;
-  color: #ffffff;
+  color: #ff0000;
 }
 
 .light-theme .site-footer .container {
@@ -169,9 +169,9 @@
   padding: 13px;
   margin: 0px 5px;
   background-color: #000000;
-  border: 1px solid #ffffff;
+  border: 1px solid #ff0000;
   text-decoration: none;
-  color: #ffffff;
+  color: #ff0000;
   text-align: center;
 }
 .light-theme ul.nav a:hover{
