@@ -31,6 +31,18 @@
     border-left: 20px solid #7e10b3;
     color: #000000;
   }
+  .light-theme .feature-furniture {
+    background-image: url("../images/t-shirtb.png");
+  }
+
+  .light-theme .feature-lighting {
+    background-image: url("../images/textileb.png");
+  }
+
+  .light-theme .feature-accessories {
+    background-image: url("../images/coinb.png");
+  }
+  
   
   .light-theme .standard {
     border-color: #7e10b3;

@@ -36,6 +36,19 @@
     border-left: 20px solid #9b087b;
     color: #ffffff;
   }
+
+  .dark-theme .feature-furniture {
+    background-image: url("../images/t-shirtl.png");
+  }
+
+  .dark-theme .feature-lighting {
+    background-image: url("../images/textilel.png");
+  }
+
+  .dark-theme .feature-accessories {
+    background-image: url("../images/coinl.png");
+  }
+  
   
   .dark-theme .standard {
     border-color: #9b087b;
