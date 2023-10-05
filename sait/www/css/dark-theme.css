@@ -1,7 +1,7 @@
 /* Тёмная тема */
 .dark-theme {
     color: #ffffff;
-    background-color: #000000;
+    background-color: #1C1C1C;
   }
   
   .dark-theme .theme-button {
@@ -33,7 +33,7 @@
   
   
   .dark-theme .advantages-item {
-    border-left: 20px solid #9b087b;
+    border-left: 20px solid #E19207;
     color: #ffffff;
   }
 
@@ -49,15 +49,18 @@
     background-image: url("../images/coinl.png");
   }
   
+  .dark-theme .polynom{
+    filter: invert(100%);
+  }
   
   .dark-theme .standard {
-    border-color: #9b087b;
+    border-color: #E19207;
     color: #ffffff;
   }
   
   
   .dark-theme .vip {
-    border-color: #9b087b;
+    border-color: #E19207;
     color: #ffffff;
   }
   
