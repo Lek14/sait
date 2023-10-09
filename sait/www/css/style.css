@@ -29,7 +29,7 @@
   /*----------------------Контейнер текста----------------------*/
   .container-text {
     /*float: left;*/
-    margin: 2px 2px 2px 2px;
+    margin: 2px 220px 2px 2px;
     padding: 0px;
     width: 490px;
     height: 158px;
@@ -50,7 +50,7 @@
 
   .site-header p {
     border: 1px solid rgb(13, 207, 165);
-    width: 41%;
+    width: 100%;
     margin: 5px 0px 10px 10px;
     text-align: left;
     line-height: 21px;
@@ -83,7 +83,7 @@
   /*----------------------Контейнер лого----------------------*/
   .container-logo {
     /*float: center;*/
-    margin: 2px 2px 2px 2px;
+    margin: 2px 580px 2px 2px;
     padding: 0px;
     width: 180px;
     height: 158px;
