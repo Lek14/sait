@@ -10,22 +10,22 @@
  
  /*----------------------Шапка сайта----------------------*/
  .container {
-    margin: 10px 80px 10px 80px;
-    padding: 0px;
-    width: 90%;
-    height: 160px;
-    border: 1px solid rgb(168, 14, 155);
+  margin: 10px 80px 10px 80px;
+  padding: 0px;
+  width: 90%;
+  height: 160px;
+  border: 1px solid rgb(168, 14, 155);
   }
 
  h1 {
   border: 1px solid rgb(180, 24, 146);
-    width: 355px;
+    width: 390px;
     height: 38px;
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 0px 10px;
     font-family: "Courier New", serif;
     text-align: left;
     font-weight: normal;
-    font-size: 53px;
+    font-size: 57px;
     line-height: 40px;
   }
 
@@ -38,34 +38,36 @@
   
   .site-header p {
     border: 1px solid rgb(13, 207, 165);
-    width: 40%;
-    margin: 10px 0px 0px 0px;
+    width: 41%;
+    margin: 5px 0px 10px 10px;
     text-align: left;
-    font-size: 16px;
-    line-height: 24px;
-    font-size: 20px;
+    line-height: 21px;
+    font-size: 24px;
     
   }
   
   .site-header img {
-    margin: 5px 0px 0px 700px;
-    border: 1px solid #d81a1a;
+    margin: 0px 0px 0px 0px;
+    float: center;
     display: block;
-  }
+    }
 
   ul.nav{
-    border: 1px solid #d81a1a;
-    margin-left: 0px;
-    width: 500px;
+    border: 3px solid #d81a1a;
+    margin: 0; 
+    padding: 0px 0px 0px 0px;
+    width: 486px;
     list-style: none;
   }
   .nav li {
     float: left;
     border: 1px solid #d81a1a;
+  
   }
+
   ul.nav a {
-    display: block;
-    width: 7em;
+    display: inline-block;
+    width: 120px;
     padding: 13px;
     margin: 0px 5px;
     text-decoration: none;
@@ -73,9 +75,9 @@
   }
 
   .logotype {
-    border: 1px solid rgb(180, 24, 146);
+    border: 1px solid rgb(24, 180, 154);
     display:inline;
-  }    
+    }
   
   .link-logo{
     text-decoration: none;
