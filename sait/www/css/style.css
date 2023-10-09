@@ -1,179 +1,182 @@
+ 
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    color: #444444;
+  }
+ 
+ /*Шапка сайта*/
+ .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
 
-.theme-button {
-  margin-right: 1.5%;
-  float: right;
-  margin-top: 30px;
-  font-family: "Courier New", sans-serif;
-  font-size: 17px;
-}
+ h1 {
+    width: 90%;
+    margin: 0 auto 8px;
+    margin-left: 80px;
+    padding-top: 25px;
+    font-family: "Courier New", serif;
+    text-align: left;
+    font-weight: normal;
+    font-size: 53px;
+    line-height: 40px;
+  }
 
-.theme-button::before {
-  background-image: url("img/moon-normal.svg");
-}
-
-
-.theme-button:focus::before,
-.theme-button:hover::before {
-  background-image: url("img/moon-hover.svg");
-}
-
-h1 {
-  width: 90%;
-  margin: 0 auto 8px;
-  margin-left: 80px;
-  padding-top: 25px;
-  font-family: "Courier New", serif;
-  text-align: left;
-  font-weight: normal;
-  font-size: 53px;
-  line-height: 40px;
-}
-.container .logo-bottom{
-  font-size: 20px;
-  margin-left: 80px;
-}
-.link-logo{
-  text-decoration: none;
-}
-
-h2 {
-  padding-bottom: 12px;
-  margin-top: 35px;
-}
-
-.container {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-.site-header {
-  min-width: 550px;
-  height: 180px;
-  background-size: cover;
-}
-
-.site-header p {
-  width: 50%;
-  margin: 0 auto 8px;
-  margin-left: 5%;
-  text-align: left;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.site-header img {
-  display: block;
-  margin: 0 auto;
-}
-
-.features {
-  float: right;
-  width: 50%;
-  margin: 0 auto 10px;
-  padding: 0 20px;
-
-}
-
-.features p {
-  display: inline-block;
-  vertical-align: top;
-  width: 30%;
-  margin: 0 5px;
-  background-repeat: no-repeat;
-  background-position: center top;
-  text-align: center;
-}
-
-.feature-furniture {
-  padding-top: 85px;
-}
-
-.feature-lighting {
-  padding-top: 85px;
-}
-
-.feature-accessories {
-  padding-top: 85px;
-}
-
-.advantages {
-  float: right;
-  width: 50%;
-  margin: 0 auto 40px;
-  padding: 0 20px;
-}
-
-.advantages-list {
-  padding: 0;
-  list-style: none;
-}
-
-.advantages-item {
-  margin-bottom: 15px;
-  padding-left: 20px;
-}
-
-
-.site-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-.site-footer .container {
-  text-align: center;
-}
-
-.site-footer p {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 0 20px;
-}
-
-ul.nav{
-
-  margin-left: 37px;
-  list-style: none;
-}
-.nav li {
-  float: left;
-}
-ul.nav a {
-  display: block;
-  width: 7em;
-  padding: 13px;
-  margin: 0px 5px;
-  text-decoration: none;
-  text-align: center;
-}
-
-
- body {
-  margin: 0;
-  padding: 0;
-  font-family: "Courier New", sans-serif;
-  font-size: 17px;
-  line-height: 20px;
-  color: #444444;
-}
-.polynom {
-  display:inline;
-  margin-left: 35px;
-}
-.logotype {
-  display:inline;
-  padding-right: 700px;
-  padding-top: 10px;
-}
-
-.informa {
-  float: right;
-  width: 50%;
-  margin: 0 auto 10px;
-  padding: 0 20px;
+  .site-header {
+    min-width: 550px;
+    height: 180px;
+    background-size: cover;
+  }
   
-}
-.informa-item{
-  font-size: 18px;
-}
+  .site-header p {
+    width: 50%;
+    margin: 0 auto 8px;
+    margin-left: 5%;
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .site-header img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  ul.nav{
+    margin-left: 37px;
+    list-style: none;
+  }
+  .nav li {
+    float: left;
+  }
+  ul.nav a {
+    display: block;
+    width: 7em;
+    padding: 13px;
+    margin: 0px 5px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .logotype {
+    display:inline;
+    padding-right: 700px;
+    padding-top: 10px;
+  }    
+  
+  .container .logo-bottom{
+    font-size: 20px;
+    margin-left: 80px;
+  }
+  .link-logo{
+    text-decoration: none;
+  }
+
+  .theme-button {
+    margin-right: 1.5%;
+    float: right;
+    margin-top: 30px;
+    font-family: "Courier New", sans-serif;
+    font-size: 17px;
+  }
+  
+  .theme-button::before {
+    background-image: url("img/moon-normal.svg");
+  }
+  
+  .theme-button:focus::before,
+  .theme-button:hover::before {
+    background-image: url("img/moon-hover.svg");
+  } 
+
+  /*Тело сайта*/
+
+  .polynom {
+    display:inline;
+    margin-left: 35px;
+  }
+
+  h2 {
+    padding-bottom: 12px;
+    margin-top: 35px;
+  }
+  
+  .informa {
+    float: right;
+    width: 50%;
+    margin: 0 auto 10px;
+    padding: 0 20px;
+    
+  }
+  .informa-item{
+    font-size: 18px;
+  }    
+
+  .features {
+    float: right;
+    width: 50%;
+    margin: 0 auto 10px;
+    padding: 0 20px;
+  }
+  
+  .features p {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 0 5px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+  }
+  
+  .feature-furniture {
+    padding-top: 85px;
+  }
+  
+  .feature-lighting {
+    padding-top: 85px;
+  }
+  
+  .feature-accessories {
+    padding-top: 85px;
+  }
+  
+  .advantages {
+    float: right;
+    width: 50%;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+  }
+  
+  .advantages-list {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .advantages-item {
+    margin-bottom: 15px;
+    padding-left: 20px;
+  }
+  
+
+  /*Подвал сайта*/
+  .site-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .site-footer .container {
+    text-align: center;
+  }
+  
+  .site-footer p {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 20px;
+  }
