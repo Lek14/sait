@@ -18,8 +18,7 @@
 
  .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   margin: 10px 80px 10px 80px;
   padding: 0px;
   width: 90%;
@@ -27,11 +26,11 @@
   border: 1px solid rgb(168, 14, 155);
   }
   /*----------------------Контейнер текста----------------------*/
-  .container-text {
-    /*float: left;*/
-    margin: 2px 220px 2px 2px;
+  .container .container-text {
+    /*margin: 2px 210px 2px 2px;*/
+
     padding: 0px;
-    width: 490px;
+    width: 400px;
     height: 158px;
     border: 1px solid rgb(238, 255, 0);
     }
@@ -50,11 +49,11 @@
 
   .site-header p {
     border: 1px solid rgb(13, 207, 165);
-    width: 100%;
+    width: 630px;
     margin: 5px 0px 10px 10px;
     text-align: left;
     line-height: 21px;
-    font-size: 24px;
+    font-size: 21px;
     
   }
   
@@ -81,9 +80,8 @@
   }
 
   /*----------------------Контейнер лого----------------------*/
-  .container-logo {
-    /*float: center;*/
-    margin: 2px 580px 2px 2px;
+  .container .container-logo {
+    /*margin: 2px 500px 2px 0px;*/
     padding: 0px;
     width: 180px;
     height: 158px;
@@ -101,16 +99,15 @@
     display:inline;
     }
   
-  .link-logo{
+  .link-text{
     text-decoration: none;
   }
 
   /*----------------------Контейнер кнопки----------------------*/
-  .container-button {
-    /*float: right;*/
-    margin: 2px 2px 2px 2px;
+  .container .container-button {
+    /*margin: 2px 2px 2px 2px;*/
     padding: 0px;
-    width: 180px;
+    width: 400px;
     height: 158px;
     border: 1px solid rgb(238, 255, 0);
     }
@@ -132,11 +129,37 @@
   }
 
   /*----------------------Тело сайта----------------------*/
+   .container-main{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(255, 123, 0);
+    height: 639px;
+    width: 100%;
 
-  .polynom {
+   }
+  .container-images {
+    border: 2px solid rgb(0, 68, 255);
+
+    width: 920px;
+    height: 637px;
+
+   }
+  .polynomtop {
     border: 1px solid rgb(180, 24, 146);
     display:inline;
-    margin-left: 35px;
+  }
+
+  .polynomlow {
+    border: 1px solid rgb(180, 24, 146);
+    display:inline;
+
+    margin-top: 375px;
+  }
+
+  .container-text{
+    border: 2px solid rgb(32, 213, 16);
+    width: 920px;
+    height: 637px;
   }
 
   h2 {
@@ -145,8 +168,6 @@
   }
   
   .informa {
-    float: right;
-    width: 50%;
     margin: 0 auto 10px;
     padding: 0 20px;
     
@@ -156,8 +177,6 @@
   }    
 
   .features {
-    float: right;
-    width: 50%;
     margin: 0 auto 10px;
     padding: 0 20px;
   }
@@ -185,8 +204,6 @@
   }
   
   .advantages {
-    float: right;
-    width: 50%;
     margin: 0 auto 40px;
     padding: 0 20px;
   }
