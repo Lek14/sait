@@ -49,10 +49,15 @@
     background-image: url("../images/coinl.png");
   }
   
-  .dark-theme .polynom{
+  .dark-theme .polynomlow{
     filter: invert(100%);
   }
   
+  .dark-theme .polynomtop{
+    filter: invert(100%);
+  }
+  
+
   .dark-theme .standard {
     border-color: #E19207;
     color: #ffffff;
