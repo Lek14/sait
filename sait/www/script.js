@@ -5,22 +5,21 @@ themeButton.onclick = function() {
   page.classList.toggle('light-theme');
   page.classList.toggle('dark-theme');
 };
-/*
-function applyTheme() {
-      const isDark = (localStorage.getItem('is-dark-theme') ?? 'true') === 'true';
-      if (isDark) {
-          page.classList.remove('light-theme');
-          page.classList.add('dark-theme');
-      } else {
-          page.classList.remove('dark-theme');
-          page.classList.add('light-theme');
-      }
+
+document.querySelector('.menu-btn').addEventListener('click', function(e) {
+  e.preventDefault();
+  var menu = document.querySelector('.menu');
+  if (menu.classList.contains('menu_active')) {
+    menu.classList.remove('menu_active');
+  } else {
+    menu.classList.add('menu_active');
   }
-function themeChange() {
-  localStorage.setItem('is-dark-theme', !((localStorage.getItem('is-dark-theme') ?? 'true') === 'true'));
-  applyTheme();
-}
-window.addEventListener('DOMContentLoaded', function () {
-       applyTheme();
+
+  var btn = document.querySelector('.menu-btn');
+  if (btn.classList.contains('menu-btn_active')) {
+    btn.classList.remove('menu-btn_active');
+  } else {
+    btn.classList.add('menu-btn_active');
+  }
 });
-*/
+

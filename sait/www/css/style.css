@@ -6,6 +6,11 @@
     font-size: 17px;
     line-height: 20px;
   }
+
+  .wrapper {
+    position: relative;
+    overflow-x: hidden;
+  }
  
  /*----------------------Шапка сайта----------------------*/
  .site-header {
@@ -50,10 +55,17 @@
   }
   
   ul.nav{
-    margin: 0; 
+    /*margin: 0; 
     padding: 0px 0px 0px 0px;
     width: clamp(280px, 40vw, 486px);
-    list-style: none;
+    list-style: none;*/
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    flex-direction: column;
+
   }
   .nav li {
     float: left;
@@ -67,6 +79,38 @@
     text-decoration: none;
     text-align: center;
     font-size: clamp(11px, 1vw, 21px);
+  }
+
+  .menu {
+    position: fixed;
+    left: 0; top: 0;
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    border-right: 1px solid #ffffff;
+    transition: 0.5s;
+    transform: translateX(-100%);
+  }
+  .menu_active {
+    transform: translateX(0%);
+  }
+
+  .menu-btn {
+    width: 45px;
+    height: 45px;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    position: absolute;
+    right: -55px;
+    top: 10px;
+  }
+
+  .menu-btn_active{
+    right: 10px;
+    top: 10px;
   }
 
   /*----------------------Контейнер лого----------------------*/
@@ -208,10 +252,42 @@
     padding-left: 20px;
   }
 
+  .text-how{
+    margin-left: 10px;
+    font-size: x-large;
+  }
+  
+  .container-con{
+    display: flex;
+    align-items: center;
+  }
+  .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 3%;
+    height: 300px;
+  }
+  .links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 7%;
+    height: 300px;
+  }
+
+  .links a{
+    color: #E19207;
+    border-bottom: #E19207;
+  }
+  
   
   /*----------------------Подвал сайта----------------------*/
   .site-footer {
-    position:absolute;
+    /*position:absolute;*/
     bottom: 0;
     width: 100%;
   }
