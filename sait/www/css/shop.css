@@ -1,0 +1,24 @@
+.cards-grid {
+    display: grid;
+    gap: 40px;
+    justify-content: center;
+    grid-template-columns: repeat(3, 410px);
+    grid-template-rows: repeat(2, 320px);
+    grid-template-areas: 
+    "XXXX XXXX XXXX"
+    "XXXX XXXX XXXX" 
+    ;
+    padding: 40px 0;
+
+}
+.card{
+    border-radius: 15px;
+    background-color:rgb(179, 174, 167);
+}
+
+.product-1 {grid-area: product1;}
+.product-2 {grid-area: product2;}
+.product-3 {grid-area: product3;}
+.product-4 {grid-area: product4;}
+.product-5 {grid-area: product5;}
+.product-6 {grid-area: product6;}
