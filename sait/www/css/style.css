@@ -55,16 +55,17 @@
   }
   
   ul.nav{
-    /*margin: 0; 
+    margin-top: 25px; 
     padding: 0px 0px 0px 0px;
-    width: clamp(280px, 40vw, 486px);*/
+    width: clamp(380px, 40vw, 650px);
     list-style: none;
+    /*list-style: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 50%;
     flex-direction: column;
-
+    */
   }
 
   .nav li {
@@ -74,7 +75,7 @@
 
   ul.nav a {
     display: inline-block;
-    width: clamp(30px, 7vw, 120px);
+    width: clamp(30px, 6.1vw, 120px);
     padding: 11px;
     margin: 0px 5px;
     text-decoration: none;
@@ -82,6 +83,10 @@
     font-size: clamp(11px, 1vw, 21px);
   }
 
+  .menu-btn {
+    display: none;
+  }
+  /*
   .menu {
     position: fixed;
     left: 0; top: 0;
@@ -99,20 +104,12 @@
     transform: translateX(0%);
   }
 
-  .menu-btn {
-    width: 45px;
-    height: 45px;
-    background-color: #000000;
-    position: absolute;
-    right: -55px;
-    top: 10px;
-  }
 
   .menu-btn_active{
     right: 10px;
     top: 10px;
   }
-
+*/
   /*----------------------Контейнер лого----------------------*/
   .container .container-logo {
     padding: 0px;
@@ -150,15 +147,6 @@
     font-size: clamp(14px, 1vw, 17px);
   }
   
-  .theme-button::before {
-    background-image: url("img/moon-normal.svg");
-  }
-  
-  .theme-button:focus::before,
-  .theme-button:hover::before {
-    background-image: url("img/moon-hover.svg");
-  }
- 
   /*----------------------Тело сайта----------------------*/
    .container-main{
     display: block;
@@ -307,9 +295,10 @@
 
   @media (max-width: 768px) {
 
+  
     .site-header {
       width: 768px;
-      height: 215px;
+      height: 165px;
       background-size: cover;
       position: static;
     }
@@ -326,7 +315,7 @@
       h1 {
           width:400px;
           height: 50px;
-          margin: 5px 0px 50px 3px;
+          margin: 35px 0px 20px 3px;
           font-size: 50px;
           line-height: 92px;
         }
@@ -359,22 +348,62 @@
           }
   
           ul.nav{
+            /*
             align-self: center;
             margin: 0; 
             padding: 0px 0px 0px 0px;
             width: 540px;
+            */
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50%;
+            flex-direction: column;
           }
   
           ul.nav a {
             display: inline-block;
-            width: 144px;
+            width: 100px;
             padding: 11px;
             margin: 0px 5px;
             text-decoration: none;
             text-align: center;
             font-size: 16px;
           }
-  
+          
+          .menu {
+            position: fixed;
+            left: 0; top: 0;
+            width: 25%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #000000;
+            border-right: 1px solid #ffffff;
+            transition: 0.5s;
+            transform: translateX(-100%);
+          }
+          .menu_active {
+            transform: translateX(0%);
+          }
+        
+          .menu-btn {
+            display: block;
+            width: 45px;
+            height: 45px;
+            background-color: #000000;
+            border-radius: 7px;
+            position: absolute;
+            right: -55px;
+            top: 10px;
+          }
+        
+          .menu-btn_active{
+            right: 10px;
+            top: 10px;
+          }
       .container .container-button {
         padding: 0px;
         width: 150px;
@@ -407,6 +436,37 @@
         .polynomlow {
           width: 768px;
         }
+
+        .container-con{
+          display: flex;
+          align-items: center;
+          padding-bottom: 277px;
+        }
+  
+        .icons{
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          flex-direction: column;
+          margin-left: 0px;
+          width: 10%;
+          height: 300px;
+        }
+  
+        .links{
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          flex-direction: column;
+          width: 15%;
+          height: 300px;
+        }
+      
+        .links a{
+          color: #E19207;
+          border-bottom: #E19207;
+        }
+
         .site-footer {
           position: static;
           bottom: 0;
@@ -469,10 +529,18 @@
         }
 
         ul.nav{
+          /*
           align-self: center;
           margin: 0; 
           padding: 0px 0px 0px 0px;
           width: 260px;
+          */
+          list-style: none;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          height: 50%;
+          flex-direction: column;
         }
 
         ul.nav a {
@@ -483,6 +551,38 @@
           text-decoration: none;
           text-align: center;
           font-size: 11px;
+        }
+
+        .menu {
+          position: fixed;
+          left: 0; top: 0;
+          width: 35%;
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #000000;
+          border-right: 1px solid #ffffff;
+          transition: 0.5s;
+          transform: translateX(-100%);
+        }
+        .menu_active {
+          transform: translateX(0%);
+        }
+      
+        .menu-btn {
+          display: block;
+          width: 45px;
+          height: 45px;
+          background-color: #000000;
+          position: absolute;
+          right: -55px;
+          top: 10px;
+        }
+      
+        .menu-btn_active{
+          right: 10px;
+          top: 10px;
         }
 
     .container .container-button {
@@ -529,6 +629,37 @@
         width: 320px;
         height: 50px;
       }
+
+      .container-con{
+        display: flex;
+        align-items: center;
+        padding-bottom: 277px;
+      }
+
+      .icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-left: 15px;
+        width: 10%;
+        height: 300px;
+      }
+
+      .links{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 50%;
+        height: 300px;
+      }
+    
+      .links a{
+        color: #E19207;
+        border-bottom: #E19207;
+      }
+      
       .site-footer {
         position: static;
         bottom: 0;
