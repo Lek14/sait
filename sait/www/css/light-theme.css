@@ -63,6 +63,7 @@
     color: #ffffff;
   }
   .light-theme ul.nav a:hover{
-    background-color: #ffffff;
+    background-color: #E19207;
     color: #000000;
+    border: 1px solid #E19207;
   }
