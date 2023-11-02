@@ -147,6 +147,46 @@
     font-size: clamp(14px, 1vw, 17px);
   }
   
+  .auto-container{
+    position: fixed;
+    right: 40%;
+    top: 25%;
+    width: 20%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .autorisation {
+    border: 1px solid #ffffff;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .auto-container h1{
+    width: 90%;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    font-size: 50px;
+  }
+  
+  .auto-btn{
+    position: fixed;
+    right: 25px;
+    top: 15px;
+  }
+
+  .auto-container_active {
+    opacity: 1;
+  }
+
   /*----------------------Тело сайта----------------------*/
    .container-main{
     display: block;

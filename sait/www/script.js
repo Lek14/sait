@@ -23,3 +23,12 @@ document.querySelector('.menu-btn').addEventListener('click', function(e) {
   }
 });
 
+document.querySelector('.auto-btn').addEventListener('click', function(e) {
+  e.preventDefault();
+  var autorisation = document.querySelector('.auto-container');
+  if (autorisation.classList.contains('auto-container_active')) {
+    autorisation.classList.remove('auto-container_active');
+  } else {
+    autorisation.classList.add('auto-container_active');
+  }
+});
