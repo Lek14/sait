@@ -18,7 +18,7 @@
     border-radius: 15px;
     min-height: 320px;
     width: 410px;
-    background-color: #0aa0b4;
+    background-color: #ffffff;
     background-size: 90%;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -28,7 +28,7 @@
 }
 
 .card:hover{
-    box-shadow: 4px 8px 16px rgba(255, 102, 51, 0.2);
+    box-shadow: 4px 8px 16px rgba(255, 102, 51, 0.4);
 }
 
 .card__top{
@@ -108,10 +108,3 @@ overflow: hidden;
     color: #ffffff;
     background-color: #ff6633;
 }
-
-.product-1 {grid-area: product1;}
-.product-2 {grid-area: product2;}
-.product-3 {grid-area: product3;}
-.product-4 {grid-area: product4;}
-.product-5 {grid-area: product5;}
-.product-6 {grid-area: product6;}
