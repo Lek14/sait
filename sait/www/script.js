@@ -1,11 +1,3 @@
-let page = document.querySelector('.page');
-let themeButton = document.querySelector('.theme-button');
-
-themeButton.onclick = function() {
-  page.classList.toggle('light-theme');
-  page.classList.toggle('dark-theme');
-};
-
 document.querySelector('.menu-btn').addEventListener('click', function(e) {
   e.preventDefault();
   var menu = document.querySelector('.menu');
@@ -25,10 +17,26 @@ document.querySelector('.menu-btn').addEventListener('click', function(e) {
 
 document.querySelector('.auto-btn').addEventListener('click', function(e) {
   e.preventDefault();
+  var blur = document.querySelector('.page');
+  if (blur.classList.contains('page-active')) {
+    blur.classList.remove('page-active');
+  } else {
+    blur.classList.add('page-active');
+  }
   var autorisation = document.querySelector('.auto-container');
   if (autorisation.classList.contains('auto-container_active')) {
     autorisation.classList.remove('auto-container_active');
   } else {
     autorisation.classList.add('auto-container_active');
+  }
+});
+
+document.querySelector('.forget').addEventListener('click', function(e) {
+  e.preventDefault();
+  var registration = document.querySelector('.reg-container');
+  if (registration.classList.contains('reg-container_active')) {
+    registration.classList.remove('reg-container_active');
+  } else {
+    registration.classList.add('reg-container_active');
   }
 });

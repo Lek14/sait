@@ -1,68 +1,57 @@
 /* Светлая тема */
-.light-theme {
+.page{
     color: #000000;
     background-color: #e4e4e4;
    }
-   .light-theme .theme-button {
-    color: #ffffff;
-    background-color: #000000;
-    border: 1px solid #ffffff;
-  }
-  
-  .light-theme .theme-button:focus,
-  .light-theme .theme-button:hover {
-    color: #000000;
-    background-color: #a6a6a6;
-    border: 1px solid #000000;
-  }
-  .light-theme h1 {
+
+  h1 {
     color:#ffffff;
   }
   
-  .light-theme h2 {
+  h2 {
     border-bottom: 2px solid #000000;
   }
   
-  .light-theme .site-header {
+  .site-header {
     background: #000000 no-repeat center url("icons8-солнце.svg");
     color: #ffffff;
   }
   
-  .light-theme .feature-furniture {
+  .feature-furniture {
     background-image: url("../images/t-shirtb.png");
   }
 
-  .light-theme .feature-lighting {
+  .feature-lighting {
     background-image: url("../images/textileb.png");
   }
 
-  .light-theme .feature-accessories {
+  .feature-accessories {
     background-image: url("../images/coinb.png");
   }
   
-  .light-theme .advantages-item {
+  .advantages-item {
     border-left: 20px solid #E19207;
     color: #000000;
   }
   
-  .light-theme .standard {
+  .standard {
     border-color: #E19207;
     color: #000000;
   }
-  .light-theme .vip {
+  .vip {
     border-color: #E19207;
     color: #000000;
   }
-  .light-theme .site-footer {
+  .site-footer {
     background-color: #000000;
     color: #ffffff;
   }
-  .light-theme ul.nav a {
+  ul.nav a {
     background-color: #000000;
     border: 1px solid #ffffff;
     color: #ffffff;
   }
-  .light-theme ul.nav a:hover{
+  ul.nav a:hover{
     background-color: #E19207;
     color: #000000;
     border: 1px solid #E19207;
