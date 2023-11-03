@@ -1,0 +1,108 @@
+
+body{
+font-family: serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 100%;
+overflow-x: hidden;
+min-width: 280px;
+
+}
+
+a{
+    display: inline-block;
+}
+
+.container {
+    width: 1500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-main{
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.site-main-photo{
+    width: 530px;
+    max-width: 100%;
+    margin-right: 30px;
+    padding-left: 100px;  
+}
+
+.site-main-details{
+   width: 800px; 
+
+}
+
+.site-main-details-title{
+    font-weight: 700;
+    width: 70%;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.site-main-details-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: justify;
+    margin-bottom: 36px;
+
+}
+
+.site-main-details-price{
+    width: 70%;
+    background-color: #3C4140;
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.site-main-details-price-price{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 28px;
+}
+
+
+.site-main-details-price-price small{
+    display: block;
+    font-size: 14px;
+    line-height: 21px;
+    opacity: 0.4;
+}
+
+.site-main-details-price-action{
+    display: inline-block;
+}
+
+button{
+cursor: pointer;
+}
+
+.btn{
+    display: inline-block;
+    padding:10px 20px;
+    background-color: #ddad5a;
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    transition: background-color 200ms ease-in-out;
+}
+
+.btn:hover{
+background-color: #E19207;
+}
