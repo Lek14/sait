@@ -28,7 +28,7 @@
 }
 
 .card:hover{
-    box-shadow: 4px 8px 16px rgba(255, 102, 51, 0.4);
+    box-shadow: 4px 8px 16px rgba(225, 146, 7, 0.5);
 }
 
 .card__top{
@@ -91,7 +91,7 @@ overflow: hidden;
 }
 
 .card__title:hover{
-    color: #ff6633;
+    color: #E19207;
 }
 
 .card__btn{
@@ -99,12 +99,12 @@ overflow: hidden;
     width: 100%;
     font-weight: 400;
     font-size: 17px;
-    color: #ff6633;
-    border: 1px solid #ff6633;
+    color: #E19207;
+    border: 1px solid #E19207;
     border-radius: 15px;
 }
 
 .card__btn:hover{
     color: #ffffff;
-    background-color: #ff6633;
+    background-color: #E19207;
 }
