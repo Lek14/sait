@@ -29,6 +29,7 @@ document.querySelector('.auto-btn').addEventListener('click', function(e) {
   }
 });
 
+
 document.querySelector('.forget').addEventListener('click', function(e) {
   e.preventDefault();
   const auto = document.getElementById('auto_id');
