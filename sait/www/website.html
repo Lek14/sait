@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>New-Polynom магазин мерча</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/dark-theme.css">
     <link rel="stylesheet" href="css/light-theme.css">
   </head>
   <body class="page">
@@ -36,24 +35,24 @@
         <a href="#" class="auto-btn">
           <img src="icons/menustat.png" width="30px" height="30px">
         </a>
-          <div class="auto-container">
+          <div id="auto_id" class="auto-container">
             <h1>Вход</h1>
-            <div class="autorisation">
-              <input type="text" placeholder="Логин">
-              <input type="password" placeholder="Пароль">
+            <form class="autorisation">
+              <input id="Login" type="text" placeholder="Логин">
+              <input id="Password" type="password" placeholder="Пароль">
               <input type="submit" value="Войти">
-            </div>
+            </form>
             <a href="#" class="forget">Зарегистрироваться</a>
         </div>
 
-        <div class="reg-container">
+        <div id="reg_id"class="reg-container">
           <h1>Регистрация</h1>
-          <div class="registration">
-            <input type="text" placeholder="Фамилия">
-            <input type="text" placeholder="Имя">
-            <input type="text" placeholder="Придумайте пароль">
+          <form class="registration">
+            <input id="Surname" type="text" placeholder="Фамилия">
+            <input id="Name" type="text" placeholder="Имя">
+            <input id="New_Password" type="text" placeholder="Придумайте пароль">
             <input type="submit" value="Зарегистрироваться">
-          </div>
+          </form>
       </div>
 
       </div>
