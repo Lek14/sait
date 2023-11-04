@@ -17,24 +17,37 @@ document.querySelector('.menu-btn').addEventListener('click', function(e) {
 
 document.querySelector('.auto-btn').addEventListener('click', function(e) {
   e.preventDefault();
-  const reg = document.getElementById('reg_id');
-  if(reg.style.display === 'flex') {
-    reg.style.display = 'block';
+  var autorisation = document.querySelector('.form-box');
+  if (autorisation.classList.contains('form-box_active')) {
+    autorisation.classList.remove('form-box_active');
+  } else {
+    autorisation.classList.add('form-box_active');
   }
+});
+
+document.querySelector('.forget').addEventListener('click', function(e) {
+  e.preventDefault();
   var autorisation = document.querySelector('.auto-container');
   if (autorisation.classList.contains('auto-container_active')) {
     autorisation.classList.remove('auto-container_active');
   } else {
     autorisation.classList.add('auto-container_active');
   }
+  var registration = document.querySelector('.reg-container');
+  if (registration.classList.contains('reg-container_active')) {
+    registration.classList.remove('reg-container_active');
+  } else {
+    registration.classList.add('reg-container_active');
+  }
 });
 
-
-document.querySelector('.forget').addEventListener('click', function(e) {
+document.querySelector('.signin').addEventListener('click', function(e) {
   e.preventDefault();
-  const auto = document.getElementById('auto_id');
-  if(auto.style.display === 'flex') {
-    auto.style.display = 'block';
+  var autorisation = document.querySelector('.auto-container');
+  if (autorisation.classList.contains('auto-container_active')) {
+    autorisation.classList.remove('auto-container_active');
+  } else {
+    autorisation.classList.add('auto-container_active');
   }
   var registration = document.querySelector('.reg-container');
   if (registration.classList.contains('reg-container_active')) {

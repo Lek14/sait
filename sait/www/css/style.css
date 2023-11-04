@@ -116,38 +116,51 @@
     font-family: "Courier New", sans-serif;
     font-size: clamp(14px, 1vw, 17px);
   }
-  
-  .auto-container{
+
+  .form-box{
     position: fixed;
-    right: 50%;
-    top: 25%;
-    width: 20%;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #000000;
-    transition: 0.5s;
-    opacity: 0;
-  }
-  
-  .reg-container{
-    position: fixed;
-    right: 25%;
-    top: 25%;
     width: 25%;
-    height: 50vh;
+    height: 50%;
+    left: 37.5%;
+    top: 25%;
     display: flex;
     align-items: center;
-    flex-direction: column;
     background-color: #000000;
-    transition: 0.5s;
+    box-shadow: 0 5px 45px #000000;
+    transition: 1s;
+    overflow: hidden;
     opacity: 0;
   }
+  .form-box_active{
+    opacity: 1;
+  }
+
+  .auto-container{
+    position: absolute;
+    transition: 1s;
+    transform: translateX(0%);
+  }
+
+  .reg-container{
+    position: absolute;
+    left: 95%;
+    transition: 1s;
+    transform: translateX(0%);
+  }
+
+  .auto-container_active{ 
+    transform: translateX(-100%);
+  }
+
+  .reg-container_active {
+    transform: translateX(-100%);
+  }
+  
   .autorisation, .registration{
     text-align: center;
     margin: 15px 40px;
   }
+
   .autorisation input, .registration input{
     margin-bottom: 10px;
     padding: 10px;
@@ -177,25 +190,16 @@
     border: 1px solid #000000;
   }
 
-  .auto-container a {
-    display: block
-    padding 0 0 30px;
-    text-align: center;
+  .auto-container a, .reg-container a{
     color: #fff;
     text-decoration: none;
+    margin-left: 110px;
   }
 
-  .auto-container a:hover {
+  .auto-container a:hover, .reg-container a:hover {
     color: #E19207;
   }
 
-  
-  .auto-container_active{ 
-    opacity: 1;
-  }
-  .reg-container_active {
-    opacity: 1;
-  }
   .auto-container h1, .reg-container h1{
     text-align: center;
     margin-bottom: 50px;
@@ -414,12 +418,6 @@
           }
   
           ul.nav{
-            /*
-            align-self: center;
-            margin: 0; 
-            padding: 0px 0px 0px 0px;
-            width: 540px;
-            */
             list-style: none;
             display: flex;
             justify-content: space-around;
