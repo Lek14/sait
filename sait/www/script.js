@@ -56,3 +56,13 @@ document.querySelector('.signin').addEventListener('click', function(e) {
     registration.classList.add('reg-container_active');
   }
 });
+
+document.querySelector('.search_btn').addEventListener('click', function(e) {
+  e.preventDefault();
+  var autorisation = document.querySelector('.search');
+  if (autorisation.classList.contains('search_active')) {
+    autorisation.classList.remove('search_active');
+  } else {
+    autorisation.classList.add('search_active');
+  }
+});
