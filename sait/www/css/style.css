@@ -172,6 +172,7 @@
     transition: 1s;
     overflow: hidden;
     opacity: 0;
+    z-index: 999;
   }
   .form-box_active{
     opacity: 1;
@@ -250,7 +251,7 @@
   }
   
   .auto-btn{
-    position: fixed;
+    position: absolute;
     right: 1%;
     top: 1.7%;
   }
@@ -490,6 +491,7 @@
             border-right: 1px solid #ffffff;
             transition: 0.5s;
             transform: translateX(-100%);
+            z-index: 999;
           }
           .menu_active {
             transform: translateX(0%);
@@ -635,12 +637,6 @@
         }
 
         ul.nav{
-          /*
-          align-self: center;
-          margin: 0; 
-          padding: 0px 0px 0px 0px;
-          width: 260px;
-          */
           list-style: none;
           display: flex;
           justify-content: space-around;
@@ -671,6 +667,7 @@
           border-right: 1px solid #ffffff;
           transition: 0.5s;
           transform: translateX(-100%);
+          z-index: 999;
         }
         .menu_active {
           transform: translateX(0%);
