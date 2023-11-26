@@ -24,7 +24,7 @@
   justify-content: space-between;
   margin: 0px clamp(20px, 20vw, 80px) 10px clamp(10px, 5vw, 80px);
   padding-top: 20px;
-  width: clamp(288px 20vw 1728px);
+  width: clamp(288px ,20vw ,1728px);
   height: 160px;
   }
 
@@ -83,13 +83,14 @@
   /*----------------------Контейнер лого----------------------*/
   .container .container-logo {
     padding: 0px;
-    width: clamp(30px 5vw 180px);
+    width: clamp(30px ,5vw, 180px);
     height: 158px;
+    margin-left: 250px;
     }
 
   .site-header img {
     margin: 0px 0px 0px 0px;
-    float: center;
+    float: none;
     display: block;
     }
 
@@ -159,53 +160,45 @@
     margin-left: 4px;
   }
 
+  .sub-a-r-container{
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+    left: 78vw;
+    top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    border: 1px solid #E19207;
+    transition: 1s;
+    transform: translateX(110%);
+  }
+
+  .sub-a-r-container_active{
+    transform: translateX(0%);
+  }
+
   .form-box{
-    position: fixed;
-    width: 25%;
-    height: 50%;
-    left: 37.5%;
-    top: 25%;
+    width: 25vw;
+    height: 50vh;
+    margin: 2.1% 37.5%;
     display: flex;
     align-items: center;
     background-color: #000000;
     box-shadow: 0 5px 45px #000000;
-    transition: 1s;
-    overflow: hidden;
-    opacity: 0;
-    z-index: 999;
-  }
-  .form-box_active{
-    opacity: 1;
-  }
-
-  .auto-container{
-    position: absolute;
-    transition: 1s;
-    transform: translateX(0%);
-  }
-
-  .reg-container{
-    position: absolute;
-    left: 95%;
-    transition: 1s;
-    transform: translateX(0%);
-  }
-
-  .auto-container_active{ 
-    transform: translateX(-100%);
-  }
-
-  .reg-container_active {
-    transform: translateX(-100%);
   }
   
-  .autorisation, .registration{
+  .auto-container, .reg-container{
     text-align: center;
-    margin: 15px 40px;
+    margin: 15px 30px;
+    width: 20vw;
+    height: 50vh;
+
   }
 
-  .autorisation input, .registration input{
-    margin-bottom: 10px;
+  .auto-container input, .reg-container input{
+    margin-bottom: 5px;
     padding: 10px;
     width: 100%;
     color: #fff;
@@ -216,38 +209,39 @@
     box-sizing: border-box;
   }
 
-  .autorisation input[type="text"]:focus, .autorisation input[type="password"]:focus, .registration input[type="text"]:focus {
+  .auto-container input[type="text"]:focus, .reg-container input[type="password"]:focus, .reg-container input[type="text"]:focus {
     border: 1px solid #E19207;
   }
   
-  .autorisation input[type="submit"], .registration input[type="submit"] {
+  .auto-container input[type="submit"], .reg-container input[type="submit"] {
     margin-top: 15px;
     font-weight: bold;
     text-transform: uppercase;
     transition: .3s;
   }
 
-  .autorisation input[type="submit"]:hover, .registration input[type="submit"]:hover{
+  .auto-container input[type="submit"]:hover, .reg-container input[type="submit"]:hover{
     background: #E19207;
     color: #000000;
     border: 1px solid #000000;
   }
 
-  .auto-container a, .reg-container a{
+  .sub-a-r-container a{
     color: #fff;
     text-decoration: none;
     margin-left: 110px;
   }
 
-  .auto-container a:hover, .reg-container a:hover {
+  .sub-a-r-container a:hover{
     color: #E19207;
   }
 
   .auto-container h1, .reg-container h1{
     text-align: center;
-    margin-bottom: 50px;
-    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     font-size: 50px;
+    width: 100%;
   }
   
   .auto-btn{
