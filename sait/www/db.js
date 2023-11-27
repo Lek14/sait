@@ -1,5 +1,5 @@
-const express = require('express');
 const sqlite3 = require('sqlite3').verbose();
+const express = require('express');
 const app = express();
 app.use(express.json());
 
@@ -16,12 +16,17 @@ db.serialize(() => {
 
 app.post('/register', (req, res) => {
   let username = req.body.username;
-  let password = req.body.password;
   let email = req.body.email;
+  let password = req.body.password;
 
   let stmt = db.prepare('INSERT INTO user(username , password , email ) VALUES (?, ? ,?)');
-  stmt.run(username,password,email);
-  stmt.finalize();
+  try {
+    stmt.run(username, password, email);
+  } catch (err) {
+    console.error('Error while inserting user:', err);
+  } finally {
+    stmt.finalize();
+  }
 
   res.send('User registered successfully');
 });
