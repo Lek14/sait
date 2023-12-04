@@ -23,6 +23,7 @@ db.serialize(() => {
   db.run('CREATE TABLE IF NOT EXISTS users(username TEXT, password TEXT, email TEXT)');
 });
 
+
 app.post('/register', (req) => {
     const stmt = db.prepare("INSERT INTO users ( username, password,email) VALUES(?, ?,?)");
     stmt.run(req.body.username, req.body.password, req.body.email, (err) => {
@@ -39,7 +40,6 @@ app.listen(5000, () => {
   console.log('Server is running on port 5000');
   console.log(`App listening at http://localhost:${5000}`);
 });
-
 process.on('exit', () => {
   db.close();
 });
