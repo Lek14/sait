@@ -1,3 +1,5 @@
+const express = require('express');
+const app = express();
 document.querySelector('.menu-btn').addEventListener('click', function(e) {
   e.preventDefault();
   var menu = document.querySelector('.menu');
@@ -33,4 +35,7 @@ document.querySelector('.search_btn').addEventListener('click', function(e) {
   } else {
     autorisation.classList.add('search_active');
   }
+});
+app.get('', function(req, res){
+  res.status(404).redirect('http://localhost:8000/sait/www/templates/error404.html');
 });
